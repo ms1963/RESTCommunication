@@ -1,4 +1,0 @@
-# RESTCalls
-# RESTCalls
-# RESTCommunication
-# RESTCommunication
