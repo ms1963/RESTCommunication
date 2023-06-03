@@ -8,7 +8,7 @@ This API can be remotely accessed by a Arduino Giga R1 (note: other Arduino boar
 Every preconfigured time interval the Arduino sends a POST call with the read sensor data, date, and time to the server which stores the measurement in the database. Please change your server address in the Arduino code (.ino file). 
 You also need to enter the SSID of your WLAN and the password/authorization key.
 
-At the server side you need to set your password and username in application.yml and docker-compose.yml. The entries in both files must be identical.
+At the server side you need to set your password and username in application.yml and docker-compose.yml. The entries in both files must be identical. Per default "michael" is used for all these entries.
 
 Start docker by: 'docker compose up' in the directory where the .yml file is located.
 
