@@ -8,7 +8,7 @@ This API can be remotely accessed by a Arduino Giga R1 (note: other Arduino boar
 Every preconfigured time interval the Arduino sends a POST call with the read sensor data, date, and time to the server which stores the measurement in the database. Please change your server address in the Arduino code (.ino file). 
 You also need to enter the SSID of your WLAN and the password/authorization key.
 
-At the server side you need to set your password and username in application.xml and docker_compose.yml. The entries in both files must be identical.
+At the server side you need to set your password and username in application.yml and docker-compose.yml. The entries in both files must be identical.
 
 Start docker by: 'docker compose up' in the directory where the .yml file is located.
 
@@ -18,7 +18,7 @@ Now, you are able to create the database: "CREATE DATABASE measurement;". Don't 
   
 After that, you may connect to the database through the command "\c measurement". Use "\dt" to see the relations defined in the DB.
   
-When you are finished you may build the project using maven or the maven wrapper (mvnw). Or you may use IntelliJ IDEA Ultimate edition for managing respectively building and executing the Java code.
+When you are finished you may build the project using maven or the maven wrapper (mvnw). Or you may use IntelliJ IDEA Ultimate edition for managing respectively building and executing the Java code. Spring Boot 3 (JPA) will take care of creating the required schema for the database measurement. It will also take care that the REST API is generated and provided on port 8080 of the host. You may change the port in application.yml.
   
 I recommend tu use Postman (https://www.postman.com/) for calling the GET/PUT/DELETE endpoints. For GET and DELETE calls select none for the body. For PUT or POST-Calls under body select raw and then JSON. Fill out the JSON form which should look like:
   
