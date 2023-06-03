@@ -1,6 +1,6 @@
 # RESTCommunication
 
-Here you find the implementation of a REST API that is implemented in Java (SDK 17) using Spring Boot 3, Docker and postgreSQL.
+Here you find the implementation of a REST API that is implemented in Java (SDK 17) using Spring Boot 3, Docker and postgreSQL as well as an Arduino client that calls this API remotely.
 This code is part of a two article series at Heise Developer (https://www.heise.de/developer/Der_Pragmatische_Architekt-2732748.html). Here you'll also find more architectural and technical details.
 
 This API can be remotely accessed by a Arduino Giga R1 (note: other Arduino boards may be used as well) that integrates a Bosch BME680 sensor, a RTC, and a WiFi module. 
