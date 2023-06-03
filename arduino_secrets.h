@@ -1,3 +1,3 @@
-#define SECRET_SSID "StalWLAN"
-#define SECRET_PASS "4242424242"
+#define SECRET_SSID "your ssid"
+#define SECRET_PASS "your ssid key"
 
