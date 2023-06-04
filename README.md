@@ -33,6 +33,10 @@ I recommend tu use Postman (https://www.postman.com/) for calling the GET/PUT/DE
     "time" : "12:00:13"
   }
   
+  
+Directories:
+  - CallRestAPI: Arduino Code (C++)
+  - RestAPIServer: Java Code for server incl. docker compose configuration
 
  DEUTSCH:
   
@@ -58,6 +62,8 @@ Ich empfehle, Postman (https://www.postman.com/) für den Aufruf der GET/PUT/DEL
 
 { "temperature" : 12.6, "humidity" : 56.98, "pressure" : 90000, "resistance": 45.87, "date" : "2023-06-04", "time" : "12:00:13" }
 
-
+Verzeichnisse:
+  - CallRestAPI: Arduino Code (C++)
+  - RestAPIServer: Java Code für den Server  inklusive einer Konfiguration für Docker Compose
 
   
