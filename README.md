@@ -5,7 +5,7 @@ ENGLISH (for GERMAN resp. DEUTSCH see below):
 Here you find the implementation of a REST API that is implemented in Java (SDK 17) using Spring Boot 3, Docker and postgreSQL as well as an Arduino client that calls this API remotely.
 This code is part of a two article series at Heise Developer (https://www.heise.de/developer/Der_Pragmatische_Architekt-2732748.html). Here you'll also find more architectural and technical details.
 
-This API can be remotely accessed by a Arduino Giga R1 (note: other Arduino boards may be used as well) that integrates a Bosch BME680 sensor, a RTC, and a WiFi module. 
+This API can be remotely accessed by a Arduino Giga R1 (note: other Arduino boards and even other Microcontroller-Boards may be used as well) that integrates a Bosch BME680 sensor, a RTC, and a WiFi module. 
 
 Every preconfigured time interval the Arduino sends a POST call with the read sensor data, date, and time to the server which stores the measurement in the database. Please change your server address in the Arduino code (.ino file). 
 You also need to enter the SSID of your WLAN and the password/authorization key.
@@ -42,7 +42,7 @@ Directories:
   
 Hier finden Sie die Implementierung einer REST-API, die in Java (SDK 17) unter Verwendung von Spring Boot 3, Docker und postgreSQL implementiert ist, sowie einen Arduino-Client, der diese API aus der Ferne aufruft. Dieser Code ist Teil einer Serie von zwei Artikeln bei Heise Developer (https://www.heise.de/developer/Der_Pragmatische_Architekt-2732748.html). Hier finden Sie auch weitere architektonische und technische Details.
 
-Diese API kann von einem Arduino Giga R1 (Hinweis: andere Arduino-Boards können ebenfalls verwendet werden), in dem ein Bosch BME680-Sensor, eine RTC und ein WiFi-Modul integriert sind, aus der Ferne aufgerufen werden.
+Diese API kann von einem Arduino Giga R1 (Hinweis: andere Arduino-Boards und sogar andere Microcontroller-können ebenfalls verwendet werden), in dem ein Bosch BME680-Sensor, eine RTC und ein WiFi-Modul integriert sind, aus der Ferne aufgerufen werden.
 
 In jedem vorkonfigurierten Zeitintervall sendet der Arduino einen POST-Aufruf mit den gelesenen Sensordaten, Datum und Uhrzeit an den Server, der die Messung in der Datenbank speichert. Bitte ändern Sie Ihre Serveradresse im Arduino-Code (.ino-Datei). Außerdem müssen Sie die SSID Ihres WLANs und das Passwort/Autorisierungsschlüssel eingeben.
 
