@@ -10,10 +10,10 @@ Achtung: Die Echtzeituhr wird hier auf die UTC-Zeit (GMT) gesetzt.
 
 #include <ArduinoHttpClient.h>
 #include <WiFi.h>
-#include <WiFiUdp.h>      // required for setting the time with NTP
+#include <WiFiUdp.h>      // notwendig für NTP-Kommunikation
 #include <mbed_mktime.h> // ""
-#include <Wire.h> // Assumption: we are using the first I2C-port (Pins 20, 21 on Giga)
-#include <SPI.h> // only required for SPI bus
+#include <Wire.h> // Annahme: Nutzen des primären I2C-Ports (Pins 20, 21 auf Giga, Due, Mega)
+#include <SPI.h> // Nur für den SPI benötigt
 #include <Adafruit_Sensor.h>
 #include "Adafruit_BME680.h"
 #include "arduino_secrets.h"
