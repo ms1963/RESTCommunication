@@ -2,7 +2,7 @@
 CallRestAPI
 Dieser Arduino-Sketch läuft auf einem Arduino Giga Board, lässt sich aber auch
 auf anderen Arduinos nutzen, wenn ein paar Änderungen erfolgen. Das gilt auch,
-// sollte eine andere Art bzw. ein anderer Sensor angeschlossen werden.
+sollte eine andere Art bzw. ein anderer Sensor angeschlossen werden.
 #include <WiFi.h> und #include <WifiUdp.h> müssen durch ihre Pendants auf der
 Zielplattform ausgetauscht werden.
 Achtung: Die Echtzeituhr wird hier auf die UTC-Zeit (GMT) gesetzt. 
