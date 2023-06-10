@@ -46,7 +46,7 @@ WiFiClient wifi;
 HttpClient client = HttpClient(wifi, serverAddress, port); // HTTP-Verbindung zur Zieladresse des REST-API-Servers
 
 unsigned int localPort = 2390; // Lokaler Port, um auf UdP-Pakete zu warten
-constexpr auto timeServer { "dptbtime1.ptb.de" };  // Genutzter NTP-Server
+constexpr auto timeServer { "europe.pool.ntp.org" };  // Genutzter NTP-Server
 const int NTP_PACKET_SIZE = 48; // NTP Zeitstempelbefindet sich in den ersten 48 Bytes der Nachricht
 byte packetBuffer[NTP_PACKET_SIZE]; // Buffer für ein- und ausgehende  Pakete
 // Eine UDP Instanz erlaubt das Senden/Empfangen von Paketen über UDP
