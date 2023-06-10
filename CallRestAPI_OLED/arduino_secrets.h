@@ -1,0 +1,3 @@
+#define SECRET_SSID "StalWLAN"
+#define SECRET_PASS "4242424242"
+
