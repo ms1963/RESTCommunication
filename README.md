@@ -36,6 +36,7 @@ I recommend tu use Postman (https://www.postman.com/) for calling the GET/PUT/DE
   
 Directories:
   - CallRestAPI: Arduino Code (C++)
+  - CallRestAPI_OLED Arduino Code (C++)
   - RestAPIServer: Java Code for server incl. docker compose configuration
 
  DEUTSCH:
@@ -64,6 +65,7 @@ Ich empfehle, Postman (https://www.postman.com/) für den Aufruf der GET/PUT/DEL
 
 Verzeichnisse:
   - CallRestAPI: Arduino Code (C++)
+    - CallRestAPI_OLED Arduino Code (C++)
   - RestAPIServer: Java Code für den Server  inklusive einer Konfiguration für Docker Compose
 
   
