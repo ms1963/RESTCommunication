@@ -22,7 +22,7 @@ After that, you may connect to the database through the command "\c measurement"
   
 When you are finished you may build the project using maven or the maven wrapper (mvnw). Or you may use IntelliJ IDEA Ultimate edition for managing respectively building and executing the Java code. Spring Boot 3 (JPA) will take care of creating the required schema for the database measurement. It will also take care that the REST API is generated and provided on port 8080 of the host. You may change the port in application.yml.
   
-I recommend tu use Postman (https://www.postman.com/) for calling the GET/PUT/DELETE endpoints. For GET and DELETE calls select none for the body. For PUT or POST-Calls under body select raw and then JSON. Fill out the JSON form which should look like:
+I recommend to use Postman (https://www.postman.com/) for calling the GET/PUT/DELETE endpoints. For GET and DELETE calls select none for the body. For PUT or POST-Calls under body select raw and then JSON. Fill out the JSON form which should look like:
   
   {
     "temperature" : 12.6,
