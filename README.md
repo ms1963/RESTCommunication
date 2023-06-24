@@ -36,7 +36,7 @@ I recommend to use Postman (https://www.postman.com/) for calling the GET/PUT/DE
   
 Directories:
   - CallRestAPI: Arduino Code (C++)
-  - CallRestAPI_OLED Arduino Code using an OLED display for showing the measurements(C++)
+  - CallRestAPI_OLED Arduino Code using an OLED display for showing the measurements (C++)
   - RestAPIServer: Java Code for server incl. docker compose configuration
 
  DEUTSCH:
